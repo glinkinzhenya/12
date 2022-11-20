@@ -27,28 +27,28 @@ summerSports = sports.slice(5, 11);
 winterSports = sports.slice(0, 5);
 
 // console.log(sports)
-console.log(summerSports)
-console.log(winterSports)
+// console.log(summerSports)
+// console.log(winterSports)
 
 fruits = [];
 fruits = fruits.concat(winterSports.splice(2, 1));
 fruits = fruits.concat(summerSports.splice(2, 2))
 
 // console.log(fruits)
-console.log("")
-console.log("*** Winter sports ***")
+console.log("");
+console.log("*** Winter sports ***");
 
 for (i = 0; i < winterSports.length; i++) {
 console.log(winterSports[i].join(": "));
 }
 console.log("")
-console.log("*** Summer sports ***")
+console.log("*** Summer sports ***");
 
 for (i = 0; i < summerSports.length; i++) {
     console.log(summerSports[i].join(": "));
 }
-console.log("")
-console.log("*** Fruits ***")
+console.log("");
+console.log("*** Fruits ***");
 
 for (i = 0; i < fruits.length; i++) {
     console.log(fruits[i].join(": "));
